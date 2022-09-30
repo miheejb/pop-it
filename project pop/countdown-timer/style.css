@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./snow.jpg");
+    background-size:cover;
+    background-position:center center;
+    font-family: "poppins", sans-serif;
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+h1{
+    font-size:4rem;
+    margin-top:-5rem;
+    font-weight:normal;
+
+
+}
+
+.countdown-container{
+    display:flex;
+    
+}
+.big-text{
+    font-size:6rem;
+    line-height:1;
+    font-wight:bold;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size:1.5rem;
+}
+
